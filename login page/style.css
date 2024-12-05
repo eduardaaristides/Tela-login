@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+display: flex;
+background: url(img/pexels-pixabay-459225.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+color: white;
+
+}
+
+
+.container{
+border: 2px solid white;
+width: 420px;
+padding: 40px;
+background-color: transparent;
+border-radius: 10px;
+backdrop-filter: blur(5px);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 36;
+}
+
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+    
+}
+
+.input-box input{
+    background: transparent;
+    border: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.input-box input::placeholder{
+    color: white;   
+}
+
+
+.senha{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+button{
+   width: 100%;
+   padding: 10px;
+   margin-top: 20px; 
+   border: none;
+   border-radius: 20px;
+   color: #333;
+   font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+.register-list a{
+    color: white;
+    cursor: pointer;
+}
+.register-list{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.register-list a:hover{
+    text-decoration: underline;
+}
